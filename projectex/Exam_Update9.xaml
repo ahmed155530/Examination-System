@@ -1,0 +1,53 @@
+﻿<Window x:Class="projectex.Exam_Update9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectex"
+        mc:Ignorable="d"
+        Title="Exam_Update9" Height="550" Width="900">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <DataGrid Height="148" HorizontalAlignment="Left" Grid.Row="0" Grid.ColumnSpan="3" 
+                  Margin="150,30,0,0" x:Name="DataGrid1" VerticalAlignment="Top" Width="600" SelectionChanged="DataGrid1_SelectionChanged" />
+
+        <Label Content="Exam_Id:" x:Name="Exam_id" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Margin="0 20 0 0"/>
+        <TextBox AcceptsReturn="True" TextWrapping="Wrap" x:Name="Exam_Id" Grid.Row="1" Grid.Column="1" Margin="0 20 0 0"  Width="200"/>
+
+        <Label Content="Exam_Name:" x:Name="Exam_name" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBox AcceptsReturn="True" TextWrapping="Wrap" x:Name="Exam_Name" Grid.Row="2" Grid.Column="1" Margin="5" Width="200"/>
+
+        <Label Content="Course_Id:" x:Name="Course_id" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBox AcceptsReturn="True"  TextWrapping="Wrap" x:Name="Course_Id" Grid.Column="1" Grid.Row="3" Margin="5" Width="200"/>
+
+        <Label Content="MCQ_Degree:" x:Name="MCQ_degree" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBox AcceptsReturn="True"  TextWrapping="Wrap" x:Name="MCQ_Degree" Grid.Column="1" Grid.Row="4" Margin="5" Width="200"/>
+
+        <Label Content="T_F_Degree:" x:Name="T_F_degree" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBox AcceptsReturn="True"  TextWrapping="Wrap" x:Name="T_F_Degree" Grid.Column="1" Grid.Row="5" Margin="5" Width="200"/>
+        
+        <Label Content="Text_Degree:" x:Name="Text_degree" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBox AcceptsReturn="True"  TextWrapping="Wrap" x:Name="Text_Degree" Grid.Column="1" Grid.Row="6" Margin="5" Width="200"/>
+
+        <Button x:Name="save" Content="Save" Grid.Row="7" Grid.Column="1" Click="Save_Click" />
+        <Button x:Name="delete" Content="Delete" Grid.Row="8" Grid.Column="1" Click="Delete_Click"/>
+    </Grid>
+</Window>

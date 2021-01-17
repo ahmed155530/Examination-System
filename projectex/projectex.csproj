@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD91D449-3841-4679-8CCF-64D7EA636FC5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>projectex</RootNamespace>
+    <AssemblyName>projectex</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="addcourse.xaml.cs">
+      <DependentUpon>addcourse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addinstructor.xaml.cs">
+      <DependentUpon>addinstructor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addquestion.xaml.cs">
+      <DependentUpon>addquestion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="addstudent.xaml.cs">
+      <DependentUpon>addstudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="assignstudenttoexam.xaml.cs">
+      <DependentUpon>assignstudenttoexam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmDelete.xaml.cs">
+      <DependentUpon>ConfirmDelete.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DesignExam.xaml.cs">
+      <DependentUpon>DesignExam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="displayexam.xaml.cs">
+      <DependentUpon>displayexam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="iti.xaml.cs">
+      <DependentUpon>iti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="makeexam.xaml.cs">
+      <DependentUpon>makeexam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002122138527_update.cs" />
+    <Compile Include="Migrations\202002122138527_update.designer.cs">
+      <DependentUpon>202002122138527_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002132322277_update2.cs" />
+    <Compile Include="Migrations\202002132322277_update2.designer.cs">
+      <DependentUpon>202002132322277_update2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002141342219_update3.cs" />
+    <Compile Include="Migrations\202002141342219_update3.designer.cs">
+      <DependentUpon>202002141342219_update3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002151737331_update4.cs" />
+    <Compile Include="Migrations\202002151737331_update4.designer.cs">
+      <DependentUpon>202002151737331_update4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002152102288_update5.cs" />
+    <Compile Include="Migrations\202002152102288_update5.designer.cs">
+      <DependentUpon>202002152102288_update5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002152108229_update6.cs" />
+    <Compile Include="Migrations\202002152108229_update6.designer.cs">
+      <DependentUpon>202002152108229_update6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002211722181_update7.cs" />
+    <Compile Include="Migrations\202002211722181_update7.designer.cs">
+      <DependentUpon>202002211722181_update7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002221437267_update8.cs" />
+    <Compile Include="Migrations\202002221437267_update8.designer.cs">
+      <DependentUpon>202002221437267_update8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002241916542_update9.cs" />
+    <Compile Include="Migrations\202002241916542_update9.designer.cs">
+      <DependentUpon>202002241916542_update9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PickExam.xaml.cs">
+      <DependentUpon>PickExam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ResultStudent.xaml.cs">
+      <DependentUpon>ResultStudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="student.xaml.cs">
+      <DependentUpon>student.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="updatecourse.xaml.cs">
+      <DependentUpon>updatecourse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="updateexam.xaml.cs">
+      <DependentUpon>updateexam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="updateinstructor.xaml.cs">
+      <DependentUpon>updateinstructor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="updatelogin.xaml.cs">
+      <DependentUpon>updatelogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="updatequestion.xaml.cs">
+      <DependentUpon>updatequestion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="updatestudent.xaml.cs">
+      <DependentUpon>updatestudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Page Include="addcourse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addinstructor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addquestion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="addstudent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="assignstudenttoexam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ConfirmDelete.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DesignExam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="displayexam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="instructor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="iti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="instructor.xaml.cs">
+      <DependentUpon>instructor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="makeexam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="manager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PickExam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ResultStudent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="student.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="updatecourse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="updateexam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="updateinstructor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="updatelogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="updatequestion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="updatestudent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="manager.xaml.cs">
+      <DependentUpon>manager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002101712443_initial.cs" />
+    <Compile Include="Migrations\202002101712443_initial.designer.cs">
+      <DependentUpon>202002101712443_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Branch.cs" />
+    <Compile Include="Model\Context.cs" />
+    <Compile Include="Model\Course.cs" />
+    <Compile Include="Model\Exam.cs" />
+    <Compile Include="Model\Exam_Question.cs" />
+    <Compile Include="Model\Instructor.cs" />
+    <Compile Include="Model\Intake.cs" />
+    <Compile Include="Model\Login_User.cs" />
+    <Compile Include="Model\MCQ_Answer.cs" />
+    <Compile Include="Model\MC_Question.cs" />
+    <Compile Include="Model\Question.cs" />
+    <Compile Include="Model\Student.cs" />
+    <Compile Include="Model\Students_Course.cs" />
+    <Compile Include="Model\Student_Answer.cs" />
+    <Compile Include="Model\Student_Degree.cs" />
+    <Compile Include="Model\Text_Answer.cs" />
+    <Compile Include="Model\Text_Question.cs" />
+    <Compile Include="Model\Track.cs" />
+    <Compile Include="Model\TrueAndFalse_Answer.cs" />
+    <Compile Include="Model\TrueAndFalse_Question.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Migrations\202002101712443_initial.resx">
+      <DependentUpon>202002101712443_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002122138527_update.resx">
+      <DependentUpon>202002122138527_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002132322277_update2.resx">
+      <DependentUpon>202002132322277_update2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002141342219_update3.resx">
+      <DependentUpon>202002141342219_update3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002151737331_update4.resx">
+      <DependentUpon>202002151737331_update4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002152102288_update5.resx">
+      <DependentUpon>202002152102288_update5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002152108229_update6.resx">
+      <DependentUpon>202002152108229_update6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002211722181_update7.resx">
+      <DependentUpon>202002211722181_update7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002221437267_update8.resx">
+      <DependentUpon>202002221437267_update8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002241916542_update9.resx">
+      <DependentUpon>202002241916542_update9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="10207-man-student-light-skin-tone-icon %281%29.png" />
+    <Resource Include="Actions-list-add-user-icon.png" />
+    <Resource Include="Courses-icon.png" />
+    <Resource Include="Office-Client-Male-Light-icon.png" />
+    <Resource Include="Science-Courses-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\add-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" />
+</Project>

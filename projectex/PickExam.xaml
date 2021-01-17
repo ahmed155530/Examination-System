@@ -1,0 +1,53 @@
+﻿<Window x:Class="projectex.PickExam"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectex"
+        mc:Ignorable="d"
+        Title="PickExam" Height="550" Width="900">
+    <Grid>
+        <StackPanel>
+            <WrapPanel>
+                <WrapPanel>
+                    <Label FontWeight="Bold" Margin="20" Content="Course Names : "></Label>
+                    <ComboBox Margin="10,20,20,20" x:Name="Courses_cmbBox" Width="150" SelectionChanged="Courses_cmbBox_SelectionChanged"></ComboBox>
+                    <Label FontWeight="Bold"  Margin="20" Content="Exam Names : "></Label>
+                    <ComboBox Margin="20" x:Name="Exams_cmbBox" Width="180" SelectionChanged="Exams_cmbBox_SelectionChanged" ></ComboBox>
+                </WrapPanel>
+
+                <WrapPanel>
+                    <Label FontWeight="Bold"  Margin="20"  Content="Questions : "></Label>
+                    <ComboBox x:Name="questions_cmbBox" Height="25" Width="300"></ComboBox>
+                </WrapPanel>
+                <WrapPanel VerticalAlignment="Center" Width="475">
+                    <Label FontWeight="Bold"  Margin="20" Content="Search By Question Body : "/>
+                    <TextBox x:Name="txtBox_search" Width="260" Height="22" TextChanged="txtBox_search_TextChanged"></TextBox>
+                    <Label FontWeight="Bold"  Margin="20" Content="Question Type :" Width="110"/>
+                    <ComboBox x:Name="cmbBox_search_Type" SelectionChanged="cmbBox_search_Type_SelectionChanged" Width="121" SelectedIndex="-1" RenderTransformOrigin="3.658,-1.591" Height="22">
+                        <ComboBoxItem>MCQ</ComboBoxItem>
+                        <ComboBoxItem>True and False</ComboBoxItem>
+                        <ComboBoxItem>Text</ComboBoxItem>
+                    </ComboBox>
+                </WrapPanel>
+
+            </WrapPanel>
+            <StackPanel>
+                <StackPanel Margin="20">
+                    <DataGrid x:Name="datagrid_showquestionsMCQ"></DataGrid>
+                </StackPanel>
+
+                <StackPanel Margin="20,0,20,20">
+                    <DataGrid x:Name="datagrid_showquestionsTF"></DataGrid>
+                </StackPanel>
+
+                <StackPanel Margin="20,0,20,20">
+                    <DataGrid x:Name="datagrid_showquestionsText"></DataGrid>
+                </StackPanel>
+            </StackPanel>
+            <WrapPanel HorizontalAlignment="Right" Margin="20,0,20,20">
+                <Button  Background="#333333" Foreground="White" x:Name="QuestionSelect_btn" Content="Add To Exam" Click="QuestionSelect_btn_Click" Width="119" Height="33"/>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Window>

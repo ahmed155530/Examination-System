@@ -1,0 +1,16 @@
+﻿<Window x:Class="projectex.student"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectex"
+        mc:Ignorable="d"
+        Title="student" Height="450" Width="800" Loaded="Window_Loaded" FontWeight="Bold" Background="#e1f4f3"> 
+    <Grid>
+        <Label FontSize="16" FontWeight="Bold" Content="choose exam" HorizontalAlignment="Left" Margin="28,181,0,0" VerticalAlignment="Top" Width="125"/>
+        <ComboBox HorizontalAlignment="Left" x:Name="cmb1" Margin="212,186,0,0" VerticalAlignment="Top" Width="300"/>
+        <Button Background="#333333" Foreground="White"    Content="Enter Exam" HorizontalAlignment="Left" Margin="595,188,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click"/>
+        <Button Background="#333333" Foreground="White"    Content="Show Results" HorizontalAlignment="Left" Margin="640,327,0,0" VerticalAlignment="Top" Width="102" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

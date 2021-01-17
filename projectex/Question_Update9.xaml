@@ -1,0 +1,43 @@
+﻿<Window x:Class="projectex.Question_Update9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectex"
+        mc:Ignorable="d"
+        Title="Question_Update9" Height="450" Width="950">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <DataGrid Height="148" HorizontalAlignment="Left" Grid.Row="0" Grid.ColumnSpan="3" 
+                  Margin="110,30,0,0" x:Name="DataGrid1" VerticalAlignment="Top" Width="600" SelectionChanged="DataGrid1_SelectionChanged" />
+
+
+        <Label Content="Question_Body:" x:Name="Question_body" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right"/>
+        <TextBox AcceptsReturn="True"  TextWrapping="Wrap" x:Name="Question_Body" Grid.Column="1" Grid.Row="1" Margin="5" Width="200"/>
+
+
+
+        
+        <Button x:Name="save" Content="Save" Grid.Row="2" Grid.Column="1" Click="Save_Click"/>
+        <Button x:Name="delete" Content="Delete" Grid.Row="3" Grid.Column="1" Click="Delete_Click" />
+
+    </Grid>
+</Window>

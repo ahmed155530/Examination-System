@@ -1,0 +1,39 @@
+﻿<Window x:Class="projectex.updatequestion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectex"
+        mc:Ignorable="d"
+        Title="Update Question" Height="450" Width="950" FontWeight="Bold" Background="#e1f4f3">
+    <Grid>
+        <StackPanel>
+            <WrapPanel VerticalAlignment="Center" Margin="20">
+                <Label>Course Name : </Label>
+                <ComboBox x:Name="cmbBox_Courses" SelectionChanged="cmbBox_Courses_SelectionChanged" Width="200"></ComboBox>
+                <Label VerticalAlignment="Center" Margin="40,0,0,0">Search :</Label>
+                <TextBox VerticalAlignment="Center" Name="txtBox_QuestionSearch" Width="250" Height="22" TextChanged="txtBox_QuestionSearch_TextChanged"></TextBox>
+            </WrapPanel>
+            <WrapPanel VerticalAlignment="Center" Margin="20">
+                <Label VerticalAlignment="Top">Questions :</Label>
+
+                <DataGrid MaxHeight="400" Name="dataGrid_Questions" Margin="20" VerticalAlignment="Center" MouseDoubleClick="dataGrid_Questions_MouseDoubleClick">
+                    <DataGrid.Columns>
+                        <DataGridCheckBoxColumn></DataGridCheckBoxColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </WrapPanel>
+
+            <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
+                <Label VerticalAlignment="Center">Question Body : </Label>
+                <TextBox x:Name="txtBox_QuestionBody" Width="500" Height="22" VerticalAlignment="Center"></TextBox>
+            </WrapPanel>
+
+            <WrapPanel>
+                <Button VerticalAlignment="Center" HorizontalAlignment="Right"  x:Name="btn_Update" Click="btn_Update_Click" Width="150" Height="22" Margin="20">Update</Button>
+                <Button VerticalAlignment="Center" HorizontalAlignment="Right"  x:Name="btn_Delete" Width="150" Height="22" Margin="20">Delete</Button>
+            </WrapPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>

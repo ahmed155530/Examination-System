@@ -1,0 +1,94 @@
+﻿<Window x:Class="projectex.addcourse"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectex"
+        mc:Ignorable="d"
+        Title="addcourse" Height="480" Width="800" Loaded="Window_Loaded" Background="#e1f4f3" FontWeight="Bold">
+    <Grid>
+        <Grid.Resources>
+            <Style x:Key="RoundCorner" TargetType="{x:Type Button}">
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="Padding" Value="1"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Grid x:Name="grid">
+                                <Border x:Name="border" CornerRadius="10" BorderBrush="Black" BorderThickness="2">
+                                    <Border.Background>
+                                        <RadialGradientBrush GradientOrigin="0.496,1.052">
+                                            <RadialGradientBrush.RelativeTransform>
+                                                <TransformGroup>
+                                                    <ScaleTransform CenterX="0.5" CenterY="0.5" 
+                                                        ScaleX="1.5" ScaleY="1.5"/>
+                                                    <TranslateTransform X="0.02" Y="0.3"/>
+                                                </TransformGroup>
+                                            </RadialGradientBrush.RelativeTransform>
+                                            <GradientStop Offset="1" Color="#00000000"/>
+                                            <GradientStop Offset="0.3" Color="#FFFFFFFF"/>
+                                        </RadialGradientBrush>
+                                    </Border.Background>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"
+                                          TextElement.FontWeight="Bold">
+                                    </ContentPresenter>
+                                </Border>
+
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter Property="Background" TargetName="border">
+                                        <Setter.Value>
+                                            <RadialGradientBrush GradientOrigin="0.496,1.052">
+                                                <RadialGradientBrush.RelativeTransform>
+                                                    <TransformGroup>
+                                                        <ScaleTransform CenterX="0.5" CenterY="0.5" ScaleX="1.5" ScaleY="1.5"/>
+                                                        <TranslateTransform X="0.02" Y="0.3"/>
+                                                    </TransformGroup>
+                                                </RadialGradientBrush.RelativeTransform>
+                                                <GradientStop Color="#00000000" Offset="1"/>
+                                                <GradientStop Color="#FF303030" Offset="0.3"/>
+                                            </RadialGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="BorderBrush" TargetName="border" Value="#FF33962B"/>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter Property="Opacity" TargetName="grid" Value="0.25"/>
+                                </Trigger>
+
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
+
+
+        <TextBox BorderBrush="Black" HorizontalAlignment="Left" Height="23" Margin="153,96,0,0" TextWrapping="Wrap" x:Name="coursename" Text="" VerticalAlignment="Top" Width="155"/>
+        <TextBox BorderBrush="Black" HorizontalAlignment="Left" Height="23" Margin="153,143,0,0" TextWrapping="Wrap"  x:Name="discription" Text="" VerticalAlignment="Top" Width="155"/>
+        <TextBox BorderBrush="Black" HorizontalAlignment="Left" Height="23" Margin="151,195,0,0" TextWrapping="Wrap"  x:Name="maxdegree" Text="" VerticalAlignment="Top" Width="155"/>
+        <TextBox BorderBrush="Black" HorizontalAlignment="Left" Height="23" Margin="151,250,0,0" TextWrapping="Wrap"  x:Name="mindegree" Text="" VerticalAlignment="Top" Width="155"/>
+        <ComboBox HorizontalAlignment="Left" Margin="153,316,0,0" VerticalAlignment="Top" Width="153"  x:Name="cmb1" />
+        <Button  Foreground="White" Content="ADD COURSE" HorizontalAlignment="Left" Margin="646,389,0,0" VerticalAlignment="Top" Width="110" Style="{DynamicResource RoundCorner}" 
+        Height="25"  Click="Button_Click"/>
+        <ComboBox HorizontalAlignment="Left" Margin="153,367,0,0" VerticalAlignment="Top" Width="153" x:Name="cmb2"/>
+        <Label FontSize="14"  Content="Course Name" HorizontalAlignment="Left" Margin="0,91,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.173" Width="99"/>
+        <Label FontSize="14" Content="Course Description" HorizontalAlignment="Left" Margin="0,136,646,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.173" Width="136"/>
+        <Label FontSize="14" Content="Max Degree" HorizontalAlignment="Left" Margin="0,189,691,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.173" Width="93"/>
+        <Label FontSize="14" Content="Min Degree" HorizontalAlignment="Left" Margin="0,244,693,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.173" Width="91"/>
+        <Label FontSize="14" Content="Track Name" HorizontalAlignment="Left" Margin="0,310,693,0" VerticalAlignment="Top" Width="89"/>
+        <Label FontSize="14" Content="Assigned Instructor" HorizontalAlignment="Left" Margin="0,361,639,0" VerticalAlignment="Top" Width="143"/>
+        <Image HorizontalAlignment="Left" VerticalAlignment="Top" Source="Science-Courses-icon.png" Width="50" Margin="28,10,0,0"></Image>
+        <Label FontFamily="Tahoma" FontWeight="ExtraBold" FontSize="25" Content="Add Course" HorizontalAlignment="Left" VerticalAlignment="Top" Width="186" Margin="102,20,0,0"/>
+        <DataGrid x:Name="dataGrid_Course" HorizontalAlignment="Left" Margin="353,195,0,0" VerticalAlignment="Top"/>
+        <Label FontSize="14"  Content="Search By Course Name : " HorizontalAlignment="Left" Margin="353,91,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.173" Width="182"/>
+        <TextBox x:Name="txtBox_CourseName_search" HorizontalAlignment="Left" Height="23" Margin="540,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" TextChanged="TextBox_TextChanged"/>
+        <ComboBox HorizontalAlignment="Left" Margin="540,143,0,0" VerticalAlignment="Top" Width="195"  x:Name="cmbBox_trackName" SelectionChanged="cmbBox_trackName_SelectionChanged" RenderTransformOrigin="2.987,-7.364" />
+        <Label FontSize="14"  Content="Search By Track Name : " HorizontalAlignment="Left" Margin="353,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.605,1.173" Width="182"/>
+    </Grid>
+</Window>

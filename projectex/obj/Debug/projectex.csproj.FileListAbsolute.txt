@@ -1,0 +1,358 @@
+C:\Users\mostafa\source\repos\projectex\projectex\bin\Debug\projectex.exe
+C:\Users\mostafa\source\repos\projectex\projectex\bin\Debug\EntityFramework.dll
+C:\Users\mostafa\source\repos\projectex\projectex\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mostafa\source\repos\projectex\projectex\bin\Debug\projectex.exe.config
+C:\Users\mostafa\source\repos\projectex\projectex\bin\Debug\EntityFramework.xml
+C:\Users\mostafa\source\repos\projectex\projectex\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.csprojAssemblyReference.cache
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\instructor.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\MainWindow.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\manager.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\student.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\App.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex_MarkupCompile.cache
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex_MarkupCompile.lref
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\instructor.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\MainWindow.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\manager.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\student.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.g.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Migrations.initial.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Properties.Resources.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.csproj.GenerateResource.cache
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.csproj.CopyComplete
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.exe
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.pdb
+C:\Users\mostafa\source\repos\projectex\projectex\bin\Debug\projectex.pdb
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\iti.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\iti.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\addstudent.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\addstudent.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Migrations.update.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Migrations.update2.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Migrations.update3.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Migrations.update4.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\addinstructor.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\addinstructor.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Migrations.update5.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Migrations.update6.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\addcourse.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\addcourse.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\assignstudenttoexam.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\makeexam.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\assignstudenttoexam.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\makeexam.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Migrations.update7.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\displayexam.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\displayexam.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Migrations.update8.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\ResultStudent.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\ResultStudent.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\ConfirmDelete.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updatecourse.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updateexam.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updateinstructor.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updatelogin.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updatequestion.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updatestudent.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\ConfirmDelete.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updatecourse.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updateexam.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updateinstructor.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updatelogin.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updatequestion.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\updatestudent.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\addquestion.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\addquestion.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\projectex.Migrations.update9.resources
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\DesignExam.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\PickExam.g.cs
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\DesignExam.baml
+C:\Users\mostafa\source\repos\projectex\projectex\obj\Debug\PickExam.baml
+G:\projectex\projectex\obj\Debug\projectex.csprojAssemblyReference.cache
+G:\projectex\projectex\obj\Debug\addcourse.g.cs
+G:\projectex\projectex\obj\Debug\addinstructor.g.cs
+G:\projectex\projectex\obj\Debug\addquestion.g.cs
+G:\projectex\projectex\obj\Debug\addstudent.g.cs
+G:\projectex\projectex\obj\Debug\assignstudenttoexam.g.cs
+G:\projectex\projectex\obj\Debug\ConfirmDelete.g.cs
+G:\projectex\projectex\obj\Debug\DesignExam.g.cs
+G:\projectex\projectex\obj\Debug\displayexam.g.cs
+G:\projectex\projectex\obj\Debug\instructor.g.cs
+G:\projectex\projectex\obj\Debug\iti.g.cs
+G:\projectex\projectex\obj\Debug\MainWindow.g.cs
+G:\projectex\projectex\obj\Debug\makeexam.g.cs
+G:\projectex\projectex\obj\Debug\manager.g.cs
+G:\projectex\projectex\obj\Debug\PickExam.g.cs
+G:\projectex\projectex\obj\Debug\ResultStudent.g.cs
+G:\projectex\projectex\obj\Debug\student.g.cs
+G:\projectex\projectex\obj\Debug\updatecourse.g.cs
+G:\projectex\projectex\obj\Debug\updateexam.g.cs
+G:\projectex\projectex\obj\Debug\updateinstructor.g.cs
+G:\projectex\projectex\obj\Debug\updatelogin.g.cs
+G:\projectex\projectex\obj\Debug\updatequestion.g.cs
+G:\projectex\projectex\obj\Debug\updatestudent.g.cs
+G:\projectex\projectex\obj\Debug\App.g.cs
+G:\projectex\projectex\obj\Debug\projectex_MarkupCompile.cache
+G:\projectex\projectex\obj\Debug\projectex_MarkupCompile.lref
+G:\projectex\projectex\obj\Debug\projectex.exe
+G:\projectex\projectex\obj\Debug\projectex.pdb
+G:\projectex\projectex\bin\Debug\projectex.exe.config
+G:\projectex\projectex\bin\Debug\projectex.exe
+G:\projectex\projectex\bin\Debug\projectex.pdb
+G:\projectex\projectex\bin\Debug\EntityFramework.dll
+G:\projectex\projectex\bin\Debug\EntityFramework.SqlServer.dll
+G:\projectex\projectex\bin\Debug\EntityFramework.xml
+G:\projectex\projectex\bin\Debug\EntityFramework.SqlServer.xml
+G:\projectex\projectex\obj\Debug\addcourse.baml
+G:\projectex\projectex\obj\Debug\addinstructor.baml
+G:\projectex\projectex\obj\Debug\addquestion.baml
+G:\projectex\projectex\obj\Debug\addstudent.baml
+G:\projectex\projectex\obj\Debug\assignstudenttoexam.baml
+G:\projectex\projectex\obj\Debug\ConfirmDelete.baml
+G:\projectex\projectex\obj\Debug\DesignExam.baml
+G:\projectex\projectex\obj\Debug\displayexam.baml
+G:\projectex\projectex\obj\Debug\instructor.baml
+G:\projectex\projectex\obj\Debug\iti.baml
+G:\projectex\projectex\obj\Debug\MainWindow.baml
+G:\projectex\projectex\obj\Debug\makeexam.baml
+G:\projectex\projectex\obj\Debug\manager.baml
+G:\projectex\projectex\obj\Debug\PickExam.baml
+G:\projectex\projectex\obj\Debug\ResultStudent.baml
+G:\projectex\projectex\obj\Debug\student.baml
+G:\projectex\projectex\obj\Debug\updatecourse.baml
+G:\projectex\projectex\obj\Debug\updateexam.baml
+G:\projectex\projectex\obj\Debug\updateinstructor.baml
+G:\projectex\projectex\obj\Debug\updatelogin.baml
+G:\projectex\projectex\obj\Debug\updatequestion.baml
+G:\projectex\projectex\obj\Debug\updatestudent.baml
+G:\projectex\projectex\obj\Debug\projectex.g.resources
+G:\projectex\projectex\obj\Debug\projectex.Migrations.initial.resources
+G:\projectex\projectex\obj\Debug\projectex.Migrations.update.resources
+G:\projectex\projectex\obj\Debug\projectex.Migrations.update2.resources
+G:\projectex\projectex\obj\Debug\projectex.Migrations.update3.resources
+G:\projectex\projectex\obj\Debug\projectex.Migrations.update4.resources
+G:\projectex\projectex\obj\Debug\projectex.Migrations.update5.resources
+G:\projectex\projectex\obj\Debug\projectex.Migrations.update6.resources
+G:\projectex\projectex\obj\Debug\projectex.Migrations.update7.resources
+G:\projectex\projectex\obj\Debug\projectex.Migrations.update8.resources
+G:\projectex\projectex\obj\Debug\projectex.Migrations.update9.resources
+G:\projectex\projectex\obj\Debug\projectex.Properties.Resources.resources
+G:\projectex\projectex\obj\Debug\projectex.csproj.GenerateResource.cache
+G:\projectex\projectex\obj\Debug\projectex.csproj.CopyComplete
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\bin\Debug\projectex.exe.config
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\bin\Debug\projectex.exe
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\bin\Debug\projectex.pdb
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\bin\Debug\EntityFramework.dll
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\bin\Debug\EntityFramework.xml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.csprojAssemblyReference.cache
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\addcourse.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\addinstructor.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\addquestion.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\addstudent.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\assignstudenttoexam.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\ConfirmDelete.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\DesignExam.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\displayexam.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\instructor.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\iti.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\MainWindow.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\makeexam.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\manager.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\PickExam.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\ResultStudent.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\student.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updatecourse.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updateexam.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updateinstructor.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updatelogin.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updatequestion.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updatestudent.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\App.g.cs
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex_MarkupCompile.cache
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex_MarkupCompile.lref
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\addcourse.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\addinstructor.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\addquestion.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\addstudent.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\assignstudenttoexam.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\ConfirmDelete.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\DesignExam.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\displayexam.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\instructor.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\iti.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\MainWindow.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\makeexam.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\manager.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\PickExam.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\ResultStudent.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\student.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updatecourse.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updateexam.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updateinstructor.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updatelogin.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updatequestion.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\updatestudent.baml
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.g.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Migrations.initial.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Migrations.update.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Migrations.update2.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Migrations.update3.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Migrations.update4.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Migrations.update5.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Migrations.update6.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Migrations.update7.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Migrations.update8.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Migrations.update9.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.Properties.Resources.resources
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.csproj.GenerateResource.cache
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.csproj.CopyComplete
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.exe
+C:\Users\mostafa\Documents\c# pro\projectex\projectex\obj\Debug\projectex.pdb
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\bin\Debug\projectex.exe.config
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\bin\Debug\projectex.exe
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\bin\Debug\projectex.pdb
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\bin\Debug\EntityFramework.dll
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\bin\Debug\EntityFramework.xml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\addcourse.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\addinstructor.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\addquestion.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\addstudent.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\assignstudenttoexam.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\ConfirmDelete.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\DesignExam.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\displayexam.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\instructor.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\iti.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\makeexam.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\manager.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\PickExam.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\ResultStudent.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\student.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updatecourse.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updateexam.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updateinstructor.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updatelogin.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updatequestion.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updatestudent.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\App.g.cs
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex_MarkupCompile.cache
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex_MarkupCompile.lref
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\addcourse.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\addinstructor.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\addquestion.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\addstudent.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\assignstudenttoexam.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\ConfirmDelete.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\DesignExam.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\displayexam.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\instructor.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\iti.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\MainWindow.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\makeexam.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\manager.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\PickExam.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\ResultStudent.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\student.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updatecourse.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updateexam.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updateinstructor.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updatelogin.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updatequestion.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\updatestudent.baml
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.g.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Migrations.initial.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Migrations.update.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Migrations.update2.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Migrations.update3.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Migrations.update4.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Migrations.update5.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Migrations.update6.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Migrations.update7.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Migrations.update8.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Migrations.update9.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.Properties.Resources.resources
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.csproj.GenerateResource.cache
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.csproj.CopyComplete
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.exe
+C:\Users\Owner\Desktop\Mostafa\projectex\projectex\obj\Debug\projectex.pdb
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\bin\Debug\projectex.exe.config
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\bin\Debug\projectex.exe
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\bin\Debug\projectex.pdb
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\bin\Debug\EntityFramework.dll
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\bin\Debug\EntityFramework.xml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\addcourse.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\addinstructor.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\addquestion.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\addstudent.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\assignstudenttoexam.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\ConfirmDelete.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\DesignExam.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\displayexam.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\instructor.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\iti.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\makeexam.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\manager.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\PickExam.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\ResultStudent.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\student.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updatecourse.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updateexam.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updateinstructor.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updatelogin.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updatequestion.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updatestudent.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\App.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex_MarkupCompile.cache
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex_MarkupCompile.lref
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\addcourse.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\addinstructor.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\addquestion.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\addstudent.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\assignstudenttoexam.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\ConfirmDelete.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\DesignExam.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\displayexam.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\instructor.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\iti.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\MainWindow.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\makeexam.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\manager.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\PickExam.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\ResultStudent.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\student.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updatecourse.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updateexam.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updateinstructor.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updatelogin.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updatequestion.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\updatestudent.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.g.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Migrations.initial.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Migrations.update.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Migrations.update2.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Migrations.update3.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Migrations.update4.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Migrations.update5.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Migrations.update6.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Migrations.update7.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Migrations.update8.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Migrations.update9.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.Properties.Resources.resources
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.csproj.GenerateResource.cache
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.csproj.CopyComplete
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.exe
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.pdb
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\Window1.g.cs
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\Window1.baml
+C:\Users\Owner\Desktop\Mostafa - updated\projectex\projectex\obj\Debug\projectex.csproj.CoreCompileInputs.cache

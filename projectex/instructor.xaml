@@ -1,0 +1,33 @@
+﻿<Window x:Class="projectex.instructor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectex"
+        mc:Ignorable="d"
+        Title="instructor" Height="450" Width="800" Background="#e1f4f3">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+    <Grid>
+
+        <WrapPanel>
+            
+            <Button Background="#333333" Foreground="White"  Padding="40" FontWeight="Bold" Content="Assign Student to Exam" HorizontalAlignment="Left" Margin="469,68,0,0" VerticalAlignment="Top" Width="222" Click="Button_Click_5"/>
+        </WrapPanel>
+        <WrapPanel>
+            <Button Background="#333333" Foreground="White"  Padding="40" FontWeight="Bold" Content="Make Random Exam" HorizontalAlignment="Left" Margin="241,255,0,0" VerticalAlignment="Top" Width="198" Click="Button_Click_4" RenderTransformOrigin="0.081,1.375"/>
+        </WrapPanel>
+            <WrapPanel>
+                <Button Background="#333333" Foreground="White"  Content="Update Question" FontWeight="Bold" HorizontalAlignment="Left" Margin="241,68,0,0" VerticalAlignment="Top" Width="198" Height="98" Click="Button_Click_11"/>
+        </WrapPanel>
+        <WrapPanel>
+            <Button Background="#333333" Foreground="White"  Padding="40" FontWeight="Bold" Content="Update Exam" HorizontalAlignment="Left" Margin="469,255,0,0" VerticalAlignment="Top" Width="222" Click="Button_Click_13"/>
+        </WrapPanel>
+        <WrapPanel>
+            <Button Background="#333333" Foreground="White"  Content="Add Question" FontWeight="Bold" HorizontalAlignment="Left" Margin="29,68,0,0" VerticalAlignment="Top" Width="169" Height="98" Click="Button_Click_14"/>
+        </WrapPanel>
+        <WrapPanel>
+            <Button Background="#333333" Foreground="White"  Content=" Exam Manually" FontWeight="Bold" HorizontalAlignment="Left" Margin="29,255,0,0" VerticalAlignment="Top" Width="169" Height="98" Click="Button_Click_15"/>
+        </WrapPanel>
+    </Grid>
+    </ScrollViewer>
+</Window>
